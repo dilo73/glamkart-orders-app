@@ -1,1 +1,44 @@
-cGFja2FnZSBjb20uZ2xhbWthcnQub3JkZXJzCgppbXBvcnQgYW5kcm9pZC5hcHAuQXBwbGljYXRpb24KaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbkNoYW5uZWwKaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbk1hbmFnZXIKaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGFuZHJvaWR4LndvcmsuRXhpc3RpbmdQZXJpb2RpY1dvcmtQb2xpY3kKaW1wb3J0IGFuZHJvaWR4LndvcmsuUGVyaW9kaWNXb3JrUmVxdWVzdEJ1aWxkZXIKaW1wb3J0IGFuZHJvaWR4LndvcmsuV29ya01hbmFnZXIKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0CgpjbGFzcyBHbGFtS2FydEFwcCA6IEFwcGxpY2F0aW9uKCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGNvbnN0IHZhbCBDSEFOTkVMX0lEID0gIm9yZGVyX2FsZXJ0cyIKICAgICAgICBjb25zdCB2YWwgV09SS19OQU1FID0gImdsYW1rYXJ0X29yZGVyX3BvbGwiCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKCkgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKCkKICAgICAgICBjcmVhdGVOb3RpZmljYXRpb25DaGFubmVsKCkKICAgICAgICBzY2hlZHVsZVBvbGxpbmcoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNyZWF0ZU5vdGlmaWNhdGlvbkNoYW5uZWwoKSB7CiAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk8pIHsKICAgICAgICAgICAgdmFsIGNoYW5uZWwgPSBOb3RpZmljYXRpb25DaGFubmVsKAogICAgICAgICAgICAgICAgQ0hBTk5FTF9JRCwKICAgICAgICAgICAgICAgICJPcmRlciBBbGVydHMiLAogICAgICAgICAgICAgICAgTm90aWZpY2F0aW9uTWFuYWdlci5JTVBPUlRBTkNFX0hJR0gKICAgICAgICAgICAgKS5hcHBseSB7IGRlc2NyaXB0aW9uID0gIkFsZXJ0cyBmb3IgbmV3IFNob3BpZnkgb3JkZXJzIiB9CiAgICAgICAgICAgIGdldFN5c3RlbVNlcnZpY2UoTm90aWZpY2F0aW9uTWFuYWdlcjo6Y2xhc3MuamF2YSkuY3JlYXRlTm90aWZpY2F0aW9uQ2hhbm5lbChjaGFubmVsKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gc2NoZWR1bGVQb2xsaW5nKCkgewogICAgICAgIHZhbCBwcmVmcyA9IFByZWZzKHRoaXMpCiAgICAgICAgdmFsIG1pbnV0ZXMgPSBwcmVmcy5wb2xsTWludXRlcy5jb2VyY2VBdExlYXN0KDE1KS50b0xvbmcoKQogICAgICAgIHZhbCByZXEgPSBQZXJpb2RpY1dvcmtSZXF1ZXN0QnVpbGRlcjxPcmRlclBvbGxXb3JrZXI+KG1pbnV0ZXMsIFRpbWVVbml0Lk1JTlVURVMpLmJ1aWxkKCkKICAgICAgICBXb3JrTWFuYWdlci5nZXRJbnN0YW5jZSh0aGlzKS5lbnF1ZXVlVW5pcXVlUGVyaW9kaWNXb3JrKAogICAgICAgICAgICBXT1JLX05BTUUsIEV4aXN0aW5nUGVyaW9kaWNXb3JrUG9saWN5LlVQREFURSwgcmVxCiAgICAgICAgKQogICAgfQp9Cg==
+package com.glamkart.orders
+
+import android.app.Application
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.os.Build
+import androidx.work.ExistingPeriodicWorkPolicy
+import androidx.work.PeriodicWorkRequestBuilder
+import androidx.work.WorkManager
+import java.util.concurrent.TimeUnit
+
+class GlamKartApp : Application() {
+
+    companion object {
+        const val CHANNEL_ID = "order_alerts"
+        const val WORK_NAME = "glamkart_order_poll"
+    }
+
+    override fun onCreate() {
+        super.onCreate()
+        createNotificationChannel()
+        schedulePolling()
+    }
+
+    private fun createNotificationChannel() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val channel = NotificationChannel(
+                CHANNEL_ID,
+                "Order Alerts",
+                NotificationManager.IMPORTANCE_HIGH
+            ).apply { description = "Alerts for new Shopify orders" }
+            getSystemService(NotificationManager::class.java).createNotificationChannel(channel)
+        }
+    }
+
+    fun schedulePolling() {
+        val prefs = Prefs(this)
+        val minutes = prefs.pollMinutes.coerceAtLeast(15).toLong()
+        val req = PeriodicWorkRequestBuilder<OrderPollWorker>(minutes, TimeUnit.MINUTES).build()
+        WorkManager.getInstance(this).enqueueUniquePeriodicWork(
+            WORK_NAME, ExistingPeriodicWorkPolicy.UPDATE, req
+        )
+    }
+}
