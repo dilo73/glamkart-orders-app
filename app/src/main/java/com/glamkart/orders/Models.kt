@@ -1,1 +1,68 @@
-cGFja2FnZSBjb20uZ2xhbWthcnQub3JkZXJzCgppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAoKZGF0YSBjbGFzcyBPcmRlckl0ZW0odmFsIHRpdGxlOiBTdHJpbmcsIHZhbCBxdWFudGl0eTogSW50LCB2YWwgcHJpY2U6IFN0cmluZykKCmRhdGEgY2xhc3MgT3JkZXIoCiAgICB2YWwgaWQ6IExvbmcsCiAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgdmFsIGNyZWF0ZWRBdDogU3RyaW5nLAogICAgdmFsIHRvdGFsUHJpY2U6IFN0cmluZywKICAgIHZhbCBjdXJyZW5jeTogU3RyaW5nLAogICAgdmFsIGZpbmFuY2lhbFN0YXR1czogU3RyaW5nLAogICAgdmFsIGZ1bGZpbGxtZW50U3RhdHVzOiBTdHJpbmc/LAogICAgdmFsIGN1c3RvbWVyTmFtZTogU3RyaW5nLAogICAgdmFsIGN1c3RvbWVyUGhvbmU6IFN0cmluZywKICAgIHZhbCBjdXN0b21lckVtYWlsOiBTdHJpbmcsCiAgICB2YWwgYWRkcmVzczogU3RyaW5nLAogICAgdmFsIGl0ZW1zOiBMaXN0PE9yZGVySXRlbT4KKSB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBmdW4gZnJvbUpzb24obzogSlNPTk9iamVjdCk6IE9yZGVyIHsKICAgICAgICAgICAgdmFsIGN1c3RvbWVyID0gby5vcHRKU09OT2JqZWN0KCJjdXN0b21lciIpCiAgICAgICAgICAgIHZhbCBzaGlwID0gby5vcHRKU09OT2JqZWN0KCJzaGlwcGluZ19hZGRyZXNzIikKICAgICAgICAgICAgdmFsIGl0ZW1zID0gbXV0YWJsZUxpc3RPZjxPcmRlckl0ZW0+KCkKICAgICAgICAgICAgdmFsIGFyciA9IG8ub3B0SlNPTkFycmF5KCJsaW5lX2l0ZW1zIikKICAgICAgICAgICAgaWYgKGFyciAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBhcnIubGVuZ3RoKCkpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgbGkgPSBhcnIuZ2V0SlNPTk9iamVjdChpKQogICAgICAgICAgICAgICAgICAgIGl0ZW1zLmFkZCgKICAgICAgICAgICAgICAgICAgICAgICAgT3JkZXJJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSBsaS5vcHRTdHJpbmcoInRpdGxlIiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBxdWFudGl0eSA9IGxpLm9wdEludCgicXVhbnRpdHkiKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaWNlID0gbGkub3B0U3RyaW5nKCJwcmljZSIpCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIGFkZHJQYXJ0cyA9IGxpc3RPZigKICAgICAgICAgICAgICAgIHNoaXA/Lm9wdFN0cmluZygiYWRkcmVzczEiKS5vckVtcHR5KCksCiAgICAgICAgICAgICAgICBzaGlwPy5vcHRTdHJpbmcoImNpdHkiKS5vckVtcHR5KCksCiAgICAgICAgICAgICAgICBzaGlwPy5vcHRTdHJpbmcoInByb3ZpbmNlIikub3JFbXB0eSgpLAogICAgICAgICAgICAgICAgc2hpcD8ub3B0U3RyaW5nKCJjb3VudHJ5Iikub3JFbXB0eSgpCiAgICAgICAgICAgICkuZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgdmFsIGN1c3ROYW1lID0gbGlzdE9mKAogICAgICAgICAgICAgICAgY3VzdG9tZXI/Lm9wdFN0cmluZygiZmlyc3RfbmFtZSIpLm9yRW1wdHkoKSwKICAgICAgICAgICAgICAgIGN1c3RvbWVyPy5vcHRTdHJpbmcoImxhc3RfbmFtZSIpLm9yRW1wdHkoKQogICAgICAgICAgICApLmZpbHRlciB7IGl0LmlzTm90QmxhbmsoKSB9LmpvaW5Ub1N0cmluZygiICIpCiAgICAgICAgICAgIHZhbCBwaG9uZSA9IGN1c3RvbWVyPy5vcHRTdHJpbmcoInBob25lIikub3JFbXB0eSgpCiAgICAgICAgICAgICAgICAuaWZCbGFuayB7IHNoaXA/Lm9wdFN0cmluZygicGhvbmUiKS5vckVtcHR5KCkgfQogICAgICAgICAgICByZXR1cm4gT3JkZXIoCiAgICAgICAgICAgICAgICBpZCA9IG8ub3B0TG9uZygiaWQiKSwKICAgICAgICAgICAgICAgIG5hbWUgPSBvLm9wdFN0cmluZygibmFtZSIpLAogICAgICAgICAgICAgICAgY3JlYXRlZEF0ID0gby5vcHRTdHJpbmcoImNyZWF0ZWRfYXQiKSwKICAgICAgICAgICAgICAgIHRvdGFsUHJpY2UgPSBvLm9wdFN0cmluZygidG90YWxfcHJpY2UiKSwKICAgICAgICAgICAgICAgIGN1cnJlbmN5ID0gby5vcHRTdHJpbmcoImN1cnJlbmN5IiksCiAgICAgICAgICAgICAgICBmaW5hbmNpYWxTdGF0dXMgPSBvLm9wdFN0cmluZygiZmluYW5jaWFsX3N0YXR1cyIpLAogICAgICAgICAgICAgICAgZnVsZmlsbG1lbnRTdGF0dXMgPSBvLm9wdFN0cmluZygiZnVsZmlsbG1lbnRfc3RhdHVzIikKICAgICAgICAgICAgICAgICAgICAudGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpICYmIGl0ICE9ICJudWxsIiB9LAogICAgICAgICAgICAgICAgY3VzdG9tZXJOYW1lID0gY3VzdE5hbWUuaWZCbGFuayB7ICJHdWVzdCIgfSwKICAgICAgICAgICAgICAgIGN1c3RvbWVyUGhvbmUgPSBwaG9uZSwKICAgICAgICAgICAgICAgIGN1c3RvbWVyRW1haWwgPSBjdXN0b21lcj8ub3B0U3RyaW5nKCJlbWFpbCIpLm9yRW1wdHkoKSwKICAgICAgICAgICAgICAgIGFkZHJlc3MgPSBhZGRyUGFydHMuam9pblRvU3RyaW5nKCIsICIpLAogICAgICAgICAgICAgICAgaXRlbXMgPSBpdGVtcwogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9Cg==
+package com.glamkart.orders
+
+import org.json.JSONObject
+
+data class OrderItem(val title: String, val quantity: Int, val price: String)
+
+data class Order(
+    val id: Long,
+    val name: String,
+    val createdAt: String,
+    val totalPrice: String,
+    val currency: String,
+    val financialStatus: String,
+    val fulfillmentStatus: String?,
+    val customerName: String,
+    val customerPhone: String,
+    val customerEmail: String,
+    val address: String,
+    val items: List<OrderItem>
+) {
+    companion object {
+        fun fromJson(o: JSONObject): Order {
+            val customer = o.optJSONObject("customer")
+            val ship = o.optJSONObject("shipping_address")
+            val items = mutableListOf<OrderItem>()
+            val arr = o.optJSONArray("line_items")
+            if (arr != null) {
+                for (i in 0 until arr.length()) {
+                    val li = arr.getJSONObject(i)
+                    items.add(
+                        OrderItem(
+                            title = li.optString("title"),
+                            quantity = li.optInt("quantity"),
+                            price = li.optString("price")
+                        )
+                    )
+                }
+            }
+            val addrParts = listOf(
+                ship?.optString("address1").orEmpty(),
+                ship?.optString("city").orEmpty(),
+                ship?.optString("province").orEmpty(),
+                ship?.optString("country").orEmpty()
+            ).filter { it.isNotBlank() }
+            val custName = listOf(
+                customer?.optString("first_name").orEmpty(),
+                customer?.optString("last_name").orEmpty()
+            ).filter { it.isNotBlank() }.joinToString(" ")
+            val phone = customer?.optString("phone").orEmpty()
+                .ifBlank { ship?.optString("phone").orEmpty() }
+            return Order(
+                id = o.optLong("id"),
+                name = o.optString("name"),
+                createdAt = o.optString("created_at"),
+                totalPrice = o.optString("total_price"),
+                currency = o.optString("currency"),
+                financialStatus = o.optString("financial_status"),
+                fulfillmentStatus = o.optString("fulfillment_status")
+                    .takeIf { it.isNotBlank() && it != "null" },
+                customerName = custName.ifBlank { "Guest" },
+                customerPhone = phone,
+                customerEmail = customer?.optString("email").orEmpty(),
+                address = addrParts.joinToString(", "),
+                items = items
+            )
+        }
+    }
+}
