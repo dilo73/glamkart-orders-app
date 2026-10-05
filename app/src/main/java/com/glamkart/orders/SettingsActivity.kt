@@ -1,1 +1,81 @@
-cGFja2FnZSBjb20uZ2xhbWthcnQub3JkZXJzCgppbXBvcnQgYW5kcm9pZC5vcy5CdW5kbGUKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkFycmF5QWRhcHRlcgppbXBvcnQgYW5kcm9pZC53aWRnZXQuQnV0dG9uCmltcG9ydCBhbmRyb2lkLndpZGdldC5FZGl0VGV4dAppbXBvcnQgYW5kcm9pZC53aWRnZXQuU3Bpbm5lcgppbXBvcnQgYW5kcm9pZC53aWRnZXQuU3dpdGNoCmltcG9ydCBhbmRyb2lkLndpZGdldC5Ub2FzdAppbXBvcnQgYW5kcm9pZHguYXBwY29tcGF0LmFwcC5BcHBDb21wYXRBY3Rpdml0eQoKY2xhc3MgU2V0dGluZ3NBY3Rpdml0eSA6IEFwcENvbXBhdEFjdGl2aXR5KCkgewoKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIHByZWZzOiBQcmVmcwogICAgcHJpdmF0ZSB2YWwgaW50ZXJ2YWxzID0gbGlzdE9mKDE1LCAzMCwgNjApCgogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZTogQnVuZGxlPykgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZSkKICAgICAgICBzZXRDb250ZW50VmlldyhSLmxheW91dC5hY3Rpdml0eV9zZXR0aW5ncykKICAgICAgICBzdXBwb3J0QWN0aW9uQmFyPy5zZXREaXNwbGF5SG9tZUFzVXBFbmFibGVkKHRydWUpCiAgICAgICAgc3VwcG9ydEFjdGlvbkJhcj8udGl0bGUgPSAiU2V0dGluZ3MiCiAgICAgICAgcHJlZnMgPSBQcmVmcyh0aGlzKQoKICAgICAgICB2YWwgZXREb21haW4gPSBmaW5kVmlld0J5SWQ8RWRpdFRleHQ+KFIuaWQuZXRfZG9tYWluKQogICAgICAgIHZhbCBldFRva2VuID0gZmluZFZpZXdCeUlkPEVkaXRUZXh0PihSLmlkLmV0X3Rva2VuKQogICAgICAgIHZhbCBzd05vdGlmID0gZmluZFZpZXdCeUlkPFN3aXRjaD4oUi5pZC5zd19ub3RpZmljYXRpb25zKQogICAgICAgIHZhbCBzcEludGVydmFsID0gZmluZFZpZXdCeUlkPFNwaW5uZXI+KFIuaWQuc3BfaW50ZXJ2YWwpCgogICAgICAgIGV0RG9tYWluLnNldFRleHQocHJlZnMuc3RvcmVEb21haW4pCiAgICAgICAgZXRUb2tlbi5zZXRUZXh0KHByZWZzLmFwaVRva2VuKQogICAgICAgIHN3Tm90aWYuaXNDaGVja2VkID0gcHJlZnMubm90aWZpY2F0aW9uc0VuYWJsZWQKCiAgICAgICAgc3BJbnRlcnZhbC5hZGFwdGVyID0gQXJyYXlBZGFwdGVyKAogICAgICAgICAgICB0aGlzLAogICAgICAgICAgICBhbmRyb2lkLlIubGF5b3V0LnNpbXBsZV9zcGlubmVyX2Ryb3Bkb3duX2l0ZW0sCiAgICAgICAgICAgIGludGVydmFscy5tYXAgeyAiJGl0IG1pbiIgfQogICAgICAgICkKICAgICAgICBzcEludGVydmFsLnNldFNlbGVjdGlvbihpbnRlcnZhbHMuaW5kZXhPZihwcmVmcy5wb2xsTWludXRlcykuY29lcmNlQXRMZWFzdCgwKSkKCiAgICAgICAgZmluZFZpZXdCeUlkPEJ1dHRvbj4oUi5pZC5idG5fdGVzdCkuc2V0T25DbGlja0xpc3RlbmVyIHsKICAgICAgICAgICAgdmFsIGRvbWFpbiA9IGV0RG9tYWluLnRleHQudG9TdHJpbmcoKS50cmltKCkKICAgICAgICAgICAgdmFsIHRva2VuID0gZXRUb2tlbi50ZXh0LnRvU3RyaW5nKCkudHJpbSgpCiAgICAgICAgICAgIGlmICh0b2tlbi5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgICAgIFRvYXN0Lm1ha2VUZXh0KHRoaXMsICJFbnRlciBBUEkgdG9rZW4gZmlyc3QiLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKQogICAgICAgICAgICAgICAgcmV0dXJuQHNldE9uQ2xpY2tMaXN0ZW5lcgogICAgICAgICAgICB9CiAgICAgICAgICAgIFRvYXN0Lm1ha2VUZXh0KHRoaXMsICJUZXN0aW5nIGNvbm5lY3Rpb24uLi4iLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKQogICAgICAgICAgICBUaHJlYWQgewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICB2YWwgb3JkZXJzID0gU2hvcGlmeUFwaS5mZXRjaE9yZGVycyhkb21haW4sIHRva2VuLCAxKQogICAgICAgICAgICAgICAgICAgIHJ1bk9uVWlUaHJlYWQgewogICAgICAgICAgICAgICAgICAgICAgICBUb2FzdC5tYWtlVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRoaXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiQ29ubmVjdGVkISBGb3VuZCAke29yZGVycy5zaXplfSByZWNlbnQgb3JkZXIocykuIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRvYXN0LkxFTkdUSF9MT05HCiAgICAgICAgICAgICAgICAgICAgICAgICkuc2hvdygpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgcnVuT25VaVRocmVhZCB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRvYXN0Lm1ha2VUZXh0KHRoaXMsICJGYWlsZWQ6ICR7ZS5tZXNzYWdlfSIsIFRvYXN0LkxFTkdUSF9MT05HKS5zaG93KCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0uc3RhcnQoKQogICAgICAgIH0KCiAgICAgICAgZmluZFZpZXdCeUlkPEJ1dHRvbj4oUi5pZC5idG5fc2F2ZSkuc2V0T25DbGlja0xpc3RlbmVyIHsKICAgICAgICAgICAgcHJlZnMuc3RvcmVEb21haW4gPSBldERvbWFpbi50ZXh0LnRvU3RyaW5nKCkudHJpbSgpCiAgICAgICAgICAgIHByZWZzLmFwaVRva2VuID0gZXRUb2tlbi50ZXh0LnRvU3RyaW5nKCkudHJpbSgpCiAgICAgICAgICAgIHByZWZzLm5vdGlmaWNhdGlvbnNFbmFibGVkID0gc3dOb3RpZi5pc0NoZWNrZWQKICAgICAgICAgICAgcHJlZnMucG9sbE1pbnV0ZXMgPSBpbnRlcnZhbHNbc3BJbnRlcnZhbC5zZWxlY3RlZEl0ZW1Qb3NpdGlvbl0KICAgICAgICAgICAgKGFwcGxpY2F0aW9uIGFzIEdsYW1LYXJ0QXBwKS5zY2hlZHVsZVBvbGxpbmcoKQogICAgICAgICAgICBUb2FzdC5tYWtlVGV4dCh0aGlzLCAiU2V0dGluZ3Mgc2F2ZWQiLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKQogICAgICAgICAgICBmaW5pc2goKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25TdXBwb3J0TmF2aWdhdGVVcCgpOiBCb29sZWFuIHsKICAgICAgICBmaW5pc2goKQogICAgICAgIHJldHVybiB0cnVlCiAgICB9Cn0K
+package com.glamkart.orders
+
+import android.os.Bundle
+import android.widget.ArrayAdapter
+import android.widget.Button
+import android.widget.EditText
+import android.widget.Spinner
+import android.widget.Switch
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+
+class SettingsActivity : AppCompatActivity() {
+
+    private lateinit var prefs: Prefs
+    private val intervals = listOf(15, 30, 60)
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_settings)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = "Settings"
+        prefs = Prefs(this)
+
+        val etDomain = findViewById<EditText>(R.id.et_domain)
+        val etToken = findViewById<EditText>(R.id.et_token)
+        val swNotif = findViewById<Switch>(R.id.sw_notifications)
+        val spInterval = findViewById<Spinner>(R.id.sp_interval)
+
+        etDomain.setText(prefs.storeDomain)
+        etToken.setText(prefs.apiToken)
+        swNotif.isChecked = prefs.notificationsEnabled
+
+        spInterval.adapter = ArrayAdapter(
+            this,
+            android.R.layout.simple_spinner_dropdown_item,
+            intervals.map { "$it min" }
+        )
+        spInterval.setSelection(intervals.indexOf(prefs.pollMinutes).coerceAtLeast(0))
+
+        findViewById<Button>(R.id.btn_test).setOnClickListener {
+            val domain = etDomain.text.toString().trim()
+            val token = etToken.text.toString().trim()
+            if (token.isBlank()) {
+                Toast.makeText(this, "Enter API token first", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+            Toast.makeText(this, "Testing connection...", Toast.LENGTH_SHORT).show()
+            Thread {
+                try {
+                    val orders = ShopifyApi.fetchOrders(domain, token, 1)
+                    runOnUiThread {
+                        Toast.makeText(
+                            this,
+                            "Connected! Found ${orders.size} recent order(s).",
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
+                } catch (e: Exception) {
+                    runOnUiThread {
+                        Toast.makeText(this, "Failed: ${e.message}", Toast.LENGTH_LONG).show()
+                    }
+                }
+            }.start()
+        }
+
+        findViewById<Button>(R.id.btn_save).setOnClickListener {
+            prefs.storeDomain = etDomain.text.toString().trim()
+            prefs.apiToken = etToken.text.toString().trim()
+            prefs.notificationsEnabled = swNotif.isChecked
+            prefs.pollMinutes = intervals[spInterval.selectedItemPosition]
+            (application as GlamKartApp).schedulePolling()
+            Toast.makeText(this, "Settings saved", Toast.LENGTH_SHORT).show()
+            finish()
+        }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        finish()
+        return true
+    }
+}
