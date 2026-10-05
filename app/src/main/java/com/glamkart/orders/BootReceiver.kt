@@ -1,1 +1,13 @@
-cGFja2FnZSBjb20uZ2xhbWthcnQub3JkZXJzCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkJyb2FkY2FzdFJlY2VpdmVyCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAoKY2xhc3MgQm9vdFJlY2VpdmVyIDogQnJvYWRjYXN0UmVjZWl2ZXIoKSB7CiAgICBvdmVycmlkZSBmdW4gb25SZWNlaXZlKGNvbnRleHQ6IENvbnRleHQsIGludGVudDogSW50ZW50KSB7CiAgICAgICAgaWYgKGludGVudC5hY3Rpb24gPT0gSW50ZW50LkFDVElPTl9CT09UX0NPTVBMRVRFRCkgewogICAgICAgICAgICAoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQgYXMgR2xhbUthcnRBcHApLnNjaGVkdWxlUG9sbGluZygpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.glamkart.orders
+
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+
+class BootReceiver : BroadcastReceiver() {
+    override fun onReceive(context: Context, intent: Intent) {
+        if (intent.action == Intent.ACTION_BOOT_COMPLETED) {
+            (context.applicationContext as GlamKartApp).schedulePolling()
+        }
+    }
+}
