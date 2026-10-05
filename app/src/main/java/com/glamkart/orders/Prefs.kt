@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uZ2xhbWthcnQub3JkZXJzCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKCmNsYXNzIFByZWZzKGNvbnRleHQ6IENvbnRleHQpIHsKICAgIHByaXZhdGUgdmFsIHNwID0gY29udGV4dC5nZXRTaGFyZWRQcmVmZXJlbmNlcygiZ2xhbWthcnRfb3JkZXJzIiwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCgogICAgdmFyIHN0b3JlRG9tYWluOiBTdHJpbmcKICAgICAgICBnZXQoKSA9IHNwLmdldFN0cmluZygic3RvcmVfZG9tYWluIiwgREVGQVVMVF9ET01BSU4pID86IERFRkFVTFRfRE9NQUlOCiAgICAgICAgc2V0KHYpID0gc3AuZWRpdCgpLnB1dFN0cmluZygic3RvcmVfZG9tYWluIiwgdikuYXBwbHkoKQoKICAgIHZhciBhcGlUb2tlbjogU3RyaW5nCiAgICAgICAgZ2V0KCkgPSBzcC5nZXRTdHJpbmcoImFwaV90b2tlbiIsICIiKSA/OiAiIgogICAgICAgIHNldCh2KSA9IHNwLmVkaXQoKS5wdXRTdHJpbmcoImFwaV90b2tlbiIsIHYpLmFwcGx5KCkKCiAgICB2YXIgbm90aWZpY2F0aW9uc0VuYWJsZWQ6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IHNwLmdldEJvb2xlYW4oIm5vdGlmaWNhdGlvbnNfZW5hYmxlZCIsIHRydWUpCiAgICAgICAgc2V0KHYpID0gc3AuZWRpdCgpLnB1dEJvb2xlYW4oIm5vdGlmaWNhdGlvbnNfZW5hYmxlZCIsIHYpLmFwcGx5KCkKCiAgICB2YXIgcG9sbE1pbnV0ZXM6IEludAogICAgICAgIGdldCgpID0gc3AuZ2V0SW50KCJwb2xsX21pbnV0ZXMiLCAxNSkKICAgICAgICBzZXQodikgPSBzcC5lZGl0KCkucHV0SW50KCJwb2xsX21pbnV0ZXMiLCB2KS5hcHBseSgpCgogICAgdmFyIGxhc3RTZWVuT3JkZXJJZDogTG9uZwogICAgICAgIGdldCgpID0gc3AuZ2V0TG9uZygibGFzdF9zZWVuX29yZGVyX2lkIiwgMEwpCiAgICAgICAgc2V0KHYpID0gc3AuZWRpdCgpLnB1dExvbmcoImxhc3Rfc2Vlbl9vcmRlcl9pZCIsIHYpLmFwcGx5KCkKCiAgICB2YWwgaXNDb25maWd1cmVkOiBCb29sZWFuIGdldCgpID0gYXBpVG9rZW4uaXNOb3RCbGFuaygpCgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfRE9NQUlOID0gImlodzhqci10MS5teXNob3BpZnkuY29tIgogICAgfQp9Cg==
+package com.glamkart.orders
+import android.content.Context
+class Prefs(context: Context) {
+    private val sp = context.getSharedPreferences("glamkart_orders", Context.MODE_PRIVATE)
+    var storeDomain: String
+        get() = sp.getString("store_domain", DEFAULT_DOMAIN) ?: DEFAULT_DOMAIN
+        set(v) = sp.edit().putString("store_domain", v).apply()
+    var apiToken: String
+        get() = sp.getString("api_token", "") ?: ""
+        set(v) = sp.edit().putString("api_token", v).apply()
+    var notificationsEnabled: Boolean
+        get() = sp.getBoolean("notifications_enabled", true)
+        set(v) = sp.edit().putBoolean("notifications_enabled", v).apply()
+    var pollMinutes: Int
+        get() = sp.getInt("poll_minutes", 15)
+        set(v) = sp.edit().putInt("poll_minutes", v).apply()
+    var lastSeenOrderId: Long
+        get() = sp.getLong("last_seen_order_id", 0L)
+        set(v) = sp.edit().putLong("last_seen_order_id", v).apply()
+    val isConfigured: Boolean get() = apiToken.isNotBlank()
+    companion object {
+        const val DEFAULT_DOMAIN = "ihw8jr-t1.myshopify.com"
+    }
+}
