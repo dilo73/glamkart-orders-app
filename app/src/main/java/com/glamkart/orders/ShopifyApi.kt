@@ -1,1 +1,38 @@
-cGFja2FnZSBjb20uZ2xhbWthcnQub3JkZXJzCgppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAppbXBvcnQgamF2YS5uZXQuSHR0cFVSTENvbm5lY3Rpb24KaW1wb3J0IGphdmEubmV0LlVSTAoKb2JqZWN0IFNob3BpZnlBcGkgewoKICAgIGZ1biBmZXRjaE9yZGVycyhkb21haW46IFN0cmluZywgdG9rZW46IFN0cmluZywgbGltaXQ6IEludCA9IDIwKTogTGlzdDxPcmRlcj4gewogICAgICAgIHZhbCBjbGVhbiA9IGRvbWFpbi50cmltKCkKICAgICAgICAgICAgLnJlbW92ZVByZWZpeCgiaHR0cHM6Ly8iKQogICAgICAgICAgICAucmVtb3ZlUHJlZml4KCJodHRwOi8vIikKICAgICAgICAgICAgLnRyaW1FbmQoJy8nKQogICAgICAgIHJlcXVpcmUoY2xlYW4uaXNOb3RCbGFuaygpKSB7ICJTdG9yZSBkb21haW4gaXMgZW1wdHkiIH0KICAgICAgICByZXF1aXJlKHRva2VuLmlzTm90QmxhbmsoKSkgeyAiQVBJIHRva2VuIGlzIGVtcHR5IiB9CgogICAgICAgIHZhbCB1cmwgPSBVUkwoImh0dHBzOi8vJGNsZWFuL2FkbWluL2FwaS8yMDI0LTEwL29yZGVycy5qc29uP3N0YXR1cz1hbnkmbGltaXQ9JGxpbWl0IikKICAgICAgICB2YWwgY29ubiA9ICh1cmwub3BlbkNvbm5lY3Rpb24oKSBhcyBIdHRwVVJMQ29ubmVjdGlvbikuYXBwbHkgewogICAgICAgICAgICByZXF1ZXN0TWV0aG9kID0gIkdFVCIKICAgICAgICAgICAgc2V0UmVxdWVzdFByb3BlcnR5KCJYLVNob3BpZnktQWNjZXNzLVRva2VuIiwgdG9rZW4pCiAgICAgICAgICAgIHNldFJlcXVlc3RQcm9wZXJ0eSgiQ29udGVudC1UeXBlIiwgImFwcGxpY2F0aW9uL2pzb24iKQogICAgICAgICAgICBjb25uZWN0VGltZW91dCA9IDIwMDAwCiAgICAgICAgICAgIHJlYWRUaW1lb3V0ID0gMjAwMDAKICAgICAgICB9CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGNvZGUgPSBjb25uLnJlc3BvbnNlQ29kZQogICAgICAgICAgICBpZiAoY29kZSA9PSA0MDEgfHwgY29kZSA9PSA0MDMpIHsKICAgICAgICAgICAgICAgIHRocm93IEV4Y2VwdGlvbigiVW5hdXRob3JpemVkIChIVFRQICRjb2RlKS4gQ2hlY2sgeW91ciBBZG1pbiBBUEkgdG9rZW4uIikKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoY29kZSAhPSAyMDApIHRocm93IEV4Y2VwdGlvbigiU2hvcGlmeSBBUEkgZXJyb3I6IEhUVFAgJGNvZGUiKQogICAgICAgICAgICB2YWwgYm9keSA9IGNvbm4uaW5wdXRTdHJlYW0uYnVmZmVyZWRSZWFkZXIoKS5yZWFkVGV4dCgpCiAgICAgICAgICAgIHZhbCBhcnIgPSBKU09OT2JqZWN0KGJvZHkpLm9wdEpTT05BcnJheSgib3JkZXJzIikgPzogcmV0dXJuIGVtcHR5TGlzdCgpCiAgICAgICAgICAgIHJldHVybiAoMCB1bnRpbCBhcnIubGVuZ3RoKCkpLm1hcCB7IE9yZGVyLmZyb21Kc29uKGFyci5nZXRKU09OT2JqZWN0KGl0KSkgfQogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIGNvbm4uZGlzY29ubmVjdCgpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.glamkart.orders
+
+import org.json.JSONObject
+import java.net.HttpURLConnection
+import java.net.URL
+
+object ShopifyApi {
+
+    fun fetchOrders(domain: String, token: String, limit: Int = 20): List<Order> {
+        val clean = domain.trim()
+            .removePrefix("https://")
+            .removePrefix("http://")
+            .trimEnd('/')
+        require(clean.isNotBlank()) { "Store domain is empty" }
+        require(token.isNotBlank()) { "API token is empty" }
+
+        val url = URL("https://$clean/admin/api/2024-10/orders.json?status=any&limit=$limit")
+        val conn = (url.openConnection() as HttpURLConnection).apply {
+            requestMethod = "GET"
+            setRequestProperty("X-Shopify-Access-Token", token)
+            setRequestProperty("Content-Type", "application/json")
+            connectTimeout = 20000
+            readTimeout = 20000
+        }
+        try {
+            val code = conn.responseCode
+            if (code == 401 || code == 403) {
+                throw Exception("Unauthorized (HTTP $code). Check your Admin API token.")
+            }
+            if (code != 200) throw Exception("Shopify API error: HTTP $code")
+            val body = conn.inputStream.bufferedReader().readText()
+            val arr = JSONObject(body).optJSONArray("orders") ?: return emptyList()
+            return (0 until arr.length()).map { Order.fromJson(arr.getJSONObject(it)) }
+        } finally {
+            conn.disconnect()
+        }
+    }
+}
