@@ -1,1 +1,57 @@
-cGFja2FnZSBjb20uZ2xhbWthcnQub3JkZXJzCgppbXBvcnQgYW5kcm9pZC5hcHAuUGVuZGluZ0ludGVudAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGFuZHJvaWR4LmNvcmUuYXBwLk5vdGlmaWNhdGlvbkNvbXBhdAppbXBvcnQgYW5kcm9pZHguY29yZS5hcHAuTm90aWZpY2F0aW9uTWFuYWdlckNvbXBhdAppbXBvcnQgYW5kcm9pZHgud29yay5Db3JvdXRpbmVXb3JrZXIKaW1wb3J0IGFuZHJvaWR4LndvcmsuV29ya2VyUGFyYW1ldGVycwoKY2xhc3MgT3JkZXJQb2xsV29ya2VyKGN0eDogQ29udGV4dCwgcGFyYW1zOiBXb3JrZXJQYXJhbWV0ZXJzKSA6IENvcm91dGluZVdvcmtlcihjdHgsIHBhcmFtcykgewoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGRvV29yaygpOiBSZXN1bHQgewogICAgICAgIHZhbCBwcmVmcyA9IFByZWZzKGFwcGxpY2F0aW9uQ29udGV4dCkKICAgICAgICBpZiAoIXByZWZzLmlzQ29uZmlndXJlZCB8fCAhcHJlZnMubm90aWZpY2F0aW9uc0VuYWJsZWQpIHJldHVybiBSZXN1bHQuc3VjY2VzcygpCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBvcmRlcnMgPSBTaG9waWZ5QXBpLmZldGNoT3JkZXJzKHByZWZzLnN0b3JlRG9tYWluLCBwcmVmcy5hcGlUb2tlbikKICAgICAgICAgICAgaWYgKG9yZGVycy5pc0VtcHR5KCkpIHJldHVybiBSZXN1bHQuc3VjY2VzcygpCiAgICAgICAgICAgIHZhbCBuZXdlc3RJZCA9IG9yZGVycy5tYXhPZiB7IGl0LmlkIH0KICAgICAgICAgICAgdmFsIGxhc3RTZWVuID0gcHJlZnMubGFzdFNlZW5PcmRlcklkCiAgICAgICAgICAgIGlmIChsYXN0U2VlbiA9PSAwTCkgewogICAgICAgICAgICAgICAgLy8gRmlyc3QgcnVuOiByZWNvcmQgbmV3ZXN0LCBkb24ndCBub3RpZnkgZm9yIG9sZCBvcmRlcnMKICAgICAgICAgICAgICAgIHByZWZzLmxhc3RTZWVuT3JkZXJJZCA9IG5ld2VzdElkCiAgICAgICAgICAgICAgICByZXR1cm4gUmVzdWx0LnN1Y2Nlc3MoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBmcmVzaCA9IG9yZGVycy5maWx0ZXIgeyBpdC5pZCA+IGxhc3RTZWVuIH0uc29ydGVkQnkgeyBpdC5pZCB9CiAgICAgICAgICAgIGZvciAob3JkZXIgaW4gZnJlc2gpIHNob3dOb3RpZmljYXRpb24ob3JkZXIpCiAgICAgICAgICAgIGlmIChmcmVzaC5pc05vdEVtcHR5KCkpIHByZWZzLmxhc3RTZWVuT3JkZXJJZCA9IG5ld2VzdElkCiAgICAgICAgICAgIFJlc3VsdC5zdWNjZXNzKCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgUmVzdWx0LnJldHJ5KCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc2hvd05vdGlmaWNhdGlvbihvcmRlcjogT3JkZXIpIHsKICAgICAgICB2YWwgY3R4ID0gYXBwbGljYXRpb25Db250ZXh0CiAgICAgICAgdmFsIGludGVudCA9IEludGVudChjdHgsIE1haW5BY3Rpdml0eTo6Y2xhc3MuamF2YSkuYXBwbHkgewogICAgICAgICAgICBmbGFncyA9IEludGVudC5GTEFHX0FDVElWSVRZX05FV19UQVNLIG9yIEludGVudC5GTEFHX0FDVElWSVRZX0NMRUFSX1RBU0sKICAgICAgICB9CiAgICAgICAgdmFsIHBpID0gUGVuZGluZ0ludGVudC5nZXRBY3Rpdml0eSgKICAgICAgICAgICAgY3R4LCBvcmRlci5pZC50b0ludCgpLCBpbnRlbnQsCiAgICAgICAgICAgIFBlbmRpbmdJbnRlbnQuRkxBR19VUERBVEVfQ1VSUkVOVCBvciBQZW5kaW5nSW50ZW50LkZMQUdfSU1NVVRBQkxFCiAgICAgICAgKQogICAgICAgIHZhbCBpdGVtc1RleHQgPSBvcmRlci5pdGVtcy5qb2luVG9TdHJpbmcoIiwgIikgeyAiJHtpdC50aXRsZX0geCR7aXQucXVhbnRpdHl9IiB9CiAgICAgICAgdmFsIG5vdGlmID0gTm90aWZpY2F0aW9uQ29tcGF0LkJ1aWxkZXIoY3R4LCBHbGFtS2FydEFwcC5DSEFOTkVMX0lEKQogICAgICAgICAgICAuc2V0U21hbGxJY29uKFIuZHJhd2FibGUuaWNfbm90aWZpY2F0aW9uKQogICAgICAgICAgICAuc2V0Q29udGVudFRpdGxlKCJOZXcgb3JkZXIgJHtvcmRlci5uYW1lfSAtIFJzICR7b3JkZXIudG90YWxQcmljZX0iKQogICAgICAgICAgICAuc2V0Q29udGVudFRleHQoIiR7b3JkZXIuY3VzdG9tZXJOYW1lfSAtICR7b3JkZXIuY3VzdG9tZXJQaG9uZX0iKQogICAgICAgICAgICAuc2V0U3R5bGUoTm90aWZpY2F0aW9uQ29tcGF0LkJpZ1RleHRTdHlsZSgpLmJpZ1RleHQoaXRlbXNUZXh0KSkKICAgICAgICAgICAgLnNldFByaW9yaXR5KE5vdGlmaWNhdGlvbkNvbXBhdC5QUklPUklUWV9ISUdIKQogICAgICAgICAgICAuc2V0RGVmYXVsdHMoTm90aWZpY2F0aW9uQ29tcGF0LkRFRkFVTFRfQUxMKQogICAgICAgICAgICAuc2V0QXV0b0NhbmNlbCh0cnVlKQogICAgICAgICAgICAuc2V0Q29udGVudEludGVudChwaSkKICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICBOb3RpZmljYXRpb25NYW5hZ2VyQ29tcGF0LmZyb20oY3R4KS5ub3RpZnkob3JkZXIuaWQudG9JbnQoKSwgbm90aWYpCiAgICB9Cn0K
+package com.glamkart.orders
+
+import android.app.PendingIntent
+import android.content.Context
+import android.content.Intent
+import androidx.core.app.NotificationCompat
+import androidx.core.app.NotificationManagerCompat
+import androidx.work.CoroutineWorker
+import androidx.work.WorkerParameters
+
+class OrderPollWorker(ctx: Context, params: WorkerParameters) : CoroutineWorker(ctx, params) {
+
+    override suspend fun doWork(): Result {
+        val prefs = Prefs(applicationContext)
+        if (!prefs.isConfigured || !prefs.notificationsEnabled) return Result.success()
+        return try {
+            val orders = ShopifyApi.fetchOrders(prefs.storeDomain, prefs.apiToken)
+            if (orders.isEmpty()) return Result.success()
+            val newestId = orders.maxOf { it.id }
+            val lastSeen = prefs.lastSeenOrderId
+            if (lastSeen == 0L) {
+                // First run: record newest, don't notify for old orders
+                prefs.lastSeenOrderId = newestId
+                return Result.success()
+            }
+            val fresh = orders.filter { it.id > lastSeen }.sortedBy { it.id }
+            for (order in fresh) showNotification(order)
+            if (fresh.isNotEmpty()) prefs.lastSeenOrderId = newestId
+            Result.success()
+        } catch (e: Exception) {
+            Result.retry()
+        }
+    }
+
+    private fun showNotification(order: Order) {
+        val ctx = applicationContext
+        val intent = Intent(ctx, MainActivity::class.java).apply {
+            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+        }
+        val pi = PendingIntent.getActivity(
+            ctx, order.id.toInt(), intent,
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+        )
+        val itemsText = order.items.joinToString(", ") { "${it.title} x${it.quantity}" }
+        val notif = NotificationCompat.Builder(ctx, GlamKartApp.CHANNEL_ID)
+            .setSmallIcon(R.drawable.ic_notification)
+            .setContentTitle("New order ${order.name} - Rs ${order.totalPrice}")
+            .setContentText("${order.customerName} - ${order.customerPhone}")
+            .setStyle(NotificationCompat.BigTextStyle().bigText(itemsText))
+            .setPriority(NotificationCompat.PRIORITY_HIGH)
+            .setDefaults(NotificationCompat.DEFAULT_ALL)
+            .setAutoCancel(true)
+            .setContentIntent(pi)
+            .build()
+        NotificationManagerCompat.from(ctx).notify(order.id.toInt(), notif)
+    }
+}
