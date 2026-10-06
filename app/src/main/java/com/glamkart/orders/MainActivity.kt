@@ -1,1 +1,166 @@
-cGFja2FnZSBjb20uZ2xhbWthcnQub3JkZXJzCgppbXBvcnQgYW5kcm9pZC5NYW5pZmVzdAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZC5jb250ZW50LnBtLlBhY2thZ2VNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZQppbXBvcnQgYW5kcm9pZC52aWV3LkxheW91dEluZmxhdGVyCmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXdHcm91cAppbXBvcnQgYW5kcm9pZC53aWRnZXQuQnV0dG9uCmltcG9ydCBhbmRyb2lkLndpZGdldC5MaW5lYXJMYXlvdXQKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlByb2dyZXNzQmFyCmltcG9ydCBhbmRyb2lkLndpZGdldC5UZXh0VmlldwppbXBvcnQgYW5kcm9pZC53aWRnZXQuVG9hc3QKaW1wb3J0IGFuZHJvaWR4LmFwcGNvbXBhdC5hcHAuQXBwQ29tcGF0QWN0aXZpdHkKaW1wb3J0IGFuZHJvaWR4LmNvcmUuYXBwLkFjdGl2aXR5Q29tcGF0CmltcG9ydCBhbmRyb2lkeC5jb3JlLmNvbnRlbnQuQ29udGV4dENvbXBhdAppbXBvcnQgYW5kcm9pZHgucmVjeWNsZXJ2aWV3LndpZGdldC5MaW5lYXJMYXlvdXRNYW5hZ2VyCmltcG9ydCBhbmRyb2lkeC5yZWN5Y2xlcnZpZXcud2lkZ2V0LlJlY3ljbGVyVmlldwoKY2xhc3MgTWFpbkFjdGl2aXR5IDogQXBwQ29tcGF0QWN0aXZpdHkoKSB7CgogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgcHJlZnM6IFByZWZzCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBhZGFwdGVyOiBPcmRlckFkYXB0ZXIKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIHNldHVwVmlldzogTGluZWFyTGF5b3V0CiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBjb250ZW50VmlldzogTGluZWFyTGF5b3V0CiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBwcm9ncmVzczogUHJvZ3Jlc3NCYXIKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIHR2VG90YWxPcmRlcnM6IFRleHRWaWV3CiAgICBwcml2YXRlIGxhdGVpbml0IHZhciB0dlJldmVudWU6IFRleHRWaWV3CiAgICBwcml2YXRlIGxhdGVpbml0IHZhciB0dlBlbmRpbmc6IFRleHRWaWV3CgogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZTogQnVuZGxlPykgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZSkKICAgICAgICBzZXRDb250ZW50VmlldyhSLmxheW91dC5hY3Rpdml0eV9tYWluKQogICAgICAgIHByZWZzID0gUHJlZnModGhpcykKCiAgICAgICAgc2V0dXBWaWV3ID0gZmluZFZpZXdCeUlkKFIuaWQuc2V0dXBfdmlldykKICAgICAgICBjb250ZW50VmlldyA9IGZpbmRWaWV3QnlJZChSLmlkLmNvbnRlbnRfdmlldykKICAgICAgICBwcm9ncmVzcyA9IGZpbmRWaWV3QnlJZChSLmlkLnByb2dyZXNzKQogICAgICAgIHR2VG90YWxPcmRlcnMgPSBmaW5kVmlld0J5SWQoUi5pZC50dl90b3RhbF9vcmRlcnMpCiAgICAgICAgdHZSZXZlbnVlID0gZmluZFZpZXdCeUlkKFIuaWQudHZfcmV2ZW51ZSkKICAgICAgICB0dlBlbmRpbmcgPSBmaW5kVmlld0J5SWQoUi5pZC50dl9wZW5kaW5nKQoKICAgICAgICB2YWwgcnYgPSBmaW5kVmlld0J5SWQ8UmVjeWNsZXJWaWV3PihSLmlkLnJ2X29yZGVycykKICAgICAgICBydi5sYXlvdXRNYW5hZ2VyID0gTGluZWFyTGF5b3V0TWFuYWdlcih0aGlzKQogICAgICAgIGFkYXB0ZXIgPSBPcmRlckFkYXB0ZXIgeyBvcmRlciAtPgogICAgICAgICAgICBzdGFydEFjdGl2aXR5KEludGVudCh0aGlzLCBPcmRlckRldGFpbEFjdGl2aXR5OjpjbGFzcy5qYXZhKS5hcHBseSB7CiAgICAgICAgICAgICAgICBwdXRFeHRyYSgib3JkZXJfZGF0YSIsIGVuY29kZU9yZGVyKG9yZGVyKSkKICAgICAgICAgICAgfSkKICAgICAgICB9CiAgICAgICAgcnYuYWRhcHRlciA9IGFkYXB0ZXIKCiAgICAgICAgZmluZFZpZXdCeUlkPEJ1dHRvbj4oUi5pZC5idG5fc2V0dXApLnNldE9uQ2xpY2tMaXN0ZW5lciB7CiAgICAgICAgICAgIHN0YXJ0QWN0aXZpdHkoSW50ZW50KHRoaXMsIFNldHRpbmdzQWN0aXZpdHk6OmNsYXNzLmphdmEpKQogICAgICAgIH0KICAgICAgICBmaW5kVmlld0J5SWQ8QnV0dG9uPihSLmlkLmJ0bl9zZXR0aW5ncykuc2V0T25DbGlja0xpc3RlbmVyIHsKICAgICAgICAgICAgc3RhcnRBY3Rpdml0eShJbnRlbnQodGhpcywgU2V0dGluZ3NBY3Rpdml0eTo6Y2xhc3MuamF2YSkpCiAgICAgICAgfQogICAgICAgIGZpbmRWaWV3QnlJZDxCdXR0b24+KFIuaWQuYnRuX3JlZnJlc2gpLnNldE9uQ2xpY2tMaXN0ZW5lciB7IGxvYWRPcmRlcnMoKSB9CgogICAgICAgIHJlcXVlc3ROb3RpZmljYXRpb25QZXJtaXNzaW9uKCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25SZXN1bWUoKSB7CiAgICAgICAgc3VwZXIub25SZXN1bWUoKQogICAgICAgIGlmICghcHJlZnMuaXNDb25maWd1cmVkKSB7CiAgICAgICAgICAgIHNldHVwVmlldy52aXNpYmlsaXR5ID0gVmlldy5WSVNJQkxFCiAgICAgICAgICAgIGNvbnRlbnRWaWV3LnZpc2liaWxpdHkgPSBWaWV3LkdPTkUKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzZXR1cFZpZXcudmlzaWJpbGl0eSA9IFZpZXcuR09ORQogICAgICAgICAgICBjb250ZW50Vmlldy52aXNpYmlsaXR5ID0gVmlldy5WSVNJQkxFCiAgICAgICAgICAgIGxvYWRPcmRlcnMoKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biByZXF1ZXN0Tm90aWZpY2F0aW9uUGVybWlzc2lvbigpIHsKICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IDMzICYmCiAgICAgICAgICAgIENvbnRleHRDb21wYXQuY2hlY2tTZWxmUGVybWlzc2lvbih0aGlzLCBNYW5pZmVzdC5wZXJtaXNzaW9uLlBPU1RfTk9USUZJQ0FUSU9OUykKICAgICAgICAgICAgIT0gUGFja2FnZU1hbmFnZXIuUEVSTUlTU0lPTl9HUkFOVEVECiAgICAgICAgKSB7CiAgICAgICAgICAgIEFjdGl2aXR5Q29tcGF0LnJlcXVlc3RQZXJtaXNzaW9ucygKICAgICAgICAgICAgICAgIHRoaXMsIGFycmF5T2YoTWFuaWZlc3QucGVybWlzc2lvbi5QT1NUX05PVElGSUNBVElPTlMpLCAxMDAxCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbG9hZE9yZGVycygpIHsKICAgICAgICBwcm9ncmVzcy52aXNpYmlsaXR5ID0gVmlldy5WSVNJQkxFCiAgICAgICAgVGhyZWFkIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBvcmRlcnMgPSBTaG9waWZ5QXBpLmZldGNoT3JkZXJzKHByZWZzLnN0b3JlRG9tYWluLCBwcmVmcy5hcGlUb2tlbiwgMzApCiAgICAgICAgICAgICAgICBydW5PblVpVGhyZWFkIHsKICAgICAgICAgICAgICAgICAgICBwcm9ncmVzcy52aXNpYmlsaXR5ID0gVmlldy5HT05FCiAgICAgICAgICAgICAgICAgICAgYWRhcHRlci5zdWJtaXQob3JkZXJzKQogICAgICAgICAgICAgICAgICAgIHZhbCByZXZlbnVlID0gb3JkZXJzLnN1bU9mIHsgaXQudG90YWxQcmljZS50b0RvdWJsZU9yTnVsbCgpID86IDAuMCB9CiAgICAgICAgICAgICAgICAgICAgdmFsIHBlbmRpbmcgPSBvcmRlcnMuY291bnQgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgZiA9IGl0LmZ1bGZpbGxtZW50U3RhdHVzCiAgICAgICAgICAgICAgICAgICAgICAgIGYgPT0gbnVsbCB8fCBmID09ICJ1bmZ1bGZpbGxlZCIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgdHZUb3RhbE9yZGVycy50ZXh0ID0gb3JkZXJzLnNpemUudG9TdHJpbmcoKQogICAgICAgICAgICAgICAgICAgIHR2UmV2ZW51ZS50ZXh0ID0gIlJzICR7IiUsLjBmIi5mb3JtYXQocmV2ZW51ZSl9IgogICAgICAgICAgICAgICAgICAgIHR2UGVuZGluZy50ZXh0ID0gcGVuZGluZy50b1N0cmluZygpCiAgICAgICAgICAgICAgICAgICAgaWYgKG9yZGVycy5pc05vdEVtcHR5KCkgJiYgcHJlZnMubGFzdFNlZW5PcmRlcklkID09IDBMKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHByZWZzLmxhc3RTZWVuT3JkZXJJZCA9IG9yZGVycy5tYXhPZiB7IGl0LmlkIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgcnVuT25VaVRocmVhZCB7CiAgICAgICAgICAgICAgICAgICAgcHJvZ3Jlc3MudmlzaWJpbGl0eSA9IFZpZXcuR09ORQogICAgICAgICAgICAgICAgICAgIFRvYXN0Lm1ha2VUZXh0KHRoaXMsICJFcnJvcjogJHtlLm1lc3NhZ2V9IiwgVG9hc3QuTEVOR1RIX0xPTkcpLnNob3coKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfS5zdGFydCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZW5jb2RlT3JkZXIob3JkZXI6IE9yZGVyKTogU3RyaW5nIHsKICAgICAgICB2YWwgaXRlbXMgPSBvcmRlci5pdGVtcy5qb2luVG9TdHJpbmcoInwiKSB7ICIke2l0LnRpdGxlfX4ke2l0LnF1YW50aXR5fX4ke2l0LnByaWNlfSIgfQogICAgICAgIHJldHVybiBsaXN0T2YoCiAgICAgICAgICAgIG9yZGVyLmlkLnRvU3RyaW5nKCksCiAgICAgICAgICAgIG9yZGVyLm5hbWUsCiAgICAgICAgICAgIG9yZGVyLmNyZWF0ZWRBdCwKICAgICAgICAgICAgb3JkZXIudG90YWxQcmljZSwKICAgICAgICAgICAgb3JkZXIuY3VycmVuY3ksCiAgICAgICAgICAgIG9yZGVyLmZpbmFuY2lhbFN0YXR1cywKICAgICAgICAgICAgb3JkZXIuZnVsZmlsbG1lbnRTdGF0dXMgPzogIiIsCiAgICAgICAgICAgIG9yZGVyLmN1c3RvbWVyTmFtZSwKICAgICAgICAgICAgb3JkZXIuY3VzdG9tZXJQaG9uZSwKICAgICAgICAgICAgb3JkZXIuY3VzdG9tZXJFbWFpbCwKICAgICAgICAgICAgb3JkZXIuYWRkcmVzcywKICAgICAgICAgICAgaXRlbXMKICAgICAgICApLmpvaW5Ub1N0cmluZygiwqciKQogICAgfQoKICAgIGlubmVyIGNsYXNzIE9yZGVyQWRhcHRlcihwcml2YXRlIHZhbCBvbkNsaWNrOiAoT3JkZXIpIC0+IFVuaXQpIDoKICAgICAgICBSZWN5Y2xlclZpZXcuQWRhcHRlcjxPcmRlckFkYXB0ZXIuVkg+KCkgewoKICAgICAgICBwcml2YXRlIHZhciBpdGVtczogTGlzdDxPcmRlcj4gPSBlbXB0eUxpc3QoKQoKICAgICAgICBmdW4gc3VibWl0KGxpc3Q6IExpc3Q8T3JkZXI+KSB7CiAgICAgICAgICAgIGl0ZW1zID0gbGlzdAogICAgICAgICAgICBub3RpZnlEYXRhU2V0Q2hhbmdlZCgpCiAgICAgICAgfQoKICAgICAgICBvdmVycmlkZSBmdW4gb25DcmVhdGVWaWV3SG9sZGVyKHBhcmVudDogVmlld0dyb3VwLCB2aWV3VHlwZTogSW50KTogVkggewogICAgICAgICAgICB2YWwgdmlldyA9IExheW91dEluZmxhdGVyLmZyb20ocGFyZW50LmNvbnRleHQpCiAgICAgICAgICAgICAgICAuaW5mbGF0ZShSLmxheW91dC5pdGVtX29yZGVyLCBwYXJlbnQsIGZhbHNlKQogICAgICAgICAgICByZXR1cm4gVkgodmlldykKICAgICAgICB9CgogICAgICAgIG92ZXJyaWRlIGZ1biBvbkJpbmRWaWV3SG9sZGVyKGhvbGRlcjogVkgsIHBvc2l0aW9uOiBJbnQpID0gaG9sZGVyLmJpbmQoaXRlbXNbcG9zaXRpb25dKQoKICAgICAgICBvdmVycmlkZSBmdW4gZ2V0SXRlbUNvdW50KCkgPSBpdGVtcy5zaXplCgogICAgICAgIGlubmVyIGNsYXNzIFZIKHY6IFZpZXcpIDogUmVjeWNsZXJWaWV3LlZpZXdIb2xkZXIodikgewogICAgICAgICAgICBmdW4gYmluZChvOiBPcmRlcikgewogICAgICAgICAgICAgICAgaXRlbVZpZXcuZmluZFZpZXdCeUlkPFRleHRWaWV3PihSLmlkLnR2X29yZGVyX25hbWUpLnRleHQgPSBvLm5hbWUKICAgICAgICAgICAgICAgIGl0ZW1WaWV3LmZpbmRWaWV3QnlJZDxUZXh0Vmlldz4oUi5pZC50dl9vcmRlcl9jdXN0b21lcikudGV4dCA9IG8uY3VzdG9tZXJOYW1lCiAgICAgICAgICAgICAgICBpdGVtVmlldy5maW5kVmlld0J5SWQ8VGV4dFZpZXc+KFIuaWQudHZfb3JkZXJfYW1vdW50KS50ZXh0ID0gIlJzICR7by50b3RhbFByaWNlfSIKICAgICAgICAgICAgICAgIHZhbCBzdGF0dXMgPSBpdGVtVmlldy5maW5kVmlld0J5SWQ8VGV4dFZpZXc+KFIuaWQudHZfb3JkZXJfc3RhdHVzKQogICAgICAgICAgICAgICAgc3RhdHVzLnRleHQgPSBpZiAoby5mdWxmaWxsbWVudFN0YXR1cyA9PSAiZnVsZmlsbGVkIikgIlNoaXBwZWQiIGVsc2UgIlBlbmRpbmciCiAgICAgICAgICAgICAgICBpdGVtVmlldy5zZXRPbkNsaWNrTGlzdGVuZXIgeyBvbkNsaWNrKG8pIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.glamkart.orders
+
+import android.Manifest
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.os.Build
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.Button
+import android.widget.LinearLayout
+import android.widget.ProgressBar
+import android.widget.TextView
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var prefs: Prefs
+    private lateinit var adapter: OrderAdapter
+    private lateinit var setupView: LinearLayout
+    private lateinit var contentView: LinearLayout
+    private lateinit var progress: ProgressBar
+    private lateinit var tvTotalOrders: TextView
+    private lateinit var tvRevenue: TextView
+    private lateinit var tvPending: TextView
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        prefs = Prefs(this)
+
+        setupView = findViewById(R.id.setup_view)
+        contentView = findViewById(R.id.content_view)
+        progress = findViewById(R.id.progress)
+        tvTotalOrders = findViewById(R.id.tv_total_orders)
+        tvRevenue = findViewById(R.id.tv_revenue)
+        tvPending = findViewById(R.id.tv_pending)
+
+        val rv = findViewById<RecyclerView>(R.id.rv_orders)
+        rv.layoutManager = LinearLayoutManager(this)
+        adapter = OrderAdapter { order ->
+            startActivity(Intent(this, OrderDetailActivity::class.java).apply {
+                putExtra("order_data", encodeOrder(order))
+            })
+        }
+        rv.adapter = adapter
+
+        findViewById<Button>(R.id.btn_setup).setOnClickListener {
+            startActivity(Intent(this, SettingsActivity::class.java))
+        }
+        findViewById<Button>(R.id.btn_settings).setOnClickListener {
+            startActivity(Intent(this, SettingsActivity::class.java))
+        }
+        findViewById<Button>(R.id.btn_refresh).setOnClickListener { loadOrders() }
+
+        requestNotificationPermission()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        if (!prefs.isConfigured) {
+            setupView.visibility = View.VISIBLE
+            contentView.visibility = View.GONE
+        } else {
+            setupView.visibility = View.GONE
+            contentView.visibility = View.VISIBLE
+            loadOrders()
+        }
+    }
+
+    private fun requestNotificationPermission() {
+        if (Build.VERSION.SDK_INT >= 33 &&
+            ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
+            != PackageManager.PERMISSION_GRANTED
+        ) {
+            ActivityCompat.requestPermissions(
+                this, arrayOf(Manifest.permission.POST_NOTIFICATIONS), 1001
+            )
+        }
+    }
+
+    private fun loadOrders() {
+        progress.visibility = View.VISIBLE
+        Thread {
+            try {
+                val orders = ShopifyApi.fetchOrders(prefs.storeDomain, prefs.apiToken, 30)
+                runOnUiThread {
+                    progress.visibility = View.GONE
+                    adapter.submit(orders)
+                    val revenue = orders.sumOf { it.totalPrice.toDoubleOrNull() ?: 0.0 }
+                    val pending = orders.count {
+                        val f = it.fulfillmentStatus
+                        f == null || f == "unfulfilled"
+                    }
+                    tvTotalOrders.text = orders.size.toString()
+                    tvRevenue.text = "Rs ${"%,.0f".format(revenue)}"
+                    tvPending.text = pending.toString()
+                    if (orders.isNotEmpty() && prefs.lastSeenOrderId == 0L) {
+                        prefs.lastSeenOrderId = orders.maxOf { it.id }
+                    }
+                }
+            } catch (e: Exception) {
+                runOnUiThread {
+                    progress.visibility = View.GONE
+                    Toast.makeText(this, "Error: ${e.message}", Toast.LENGTH_LONG).show()
+                }
+            }
+        }.start()
+    }
+
+    private fun encodeOrder(order: Order): String {
+        val items = order.items.joinToString("|") { "${it.title}~${it.quantity}~${it.price}" }
+        return listOf(
+            order.id.toString(),
+            order.name,
+            order.createdAt,
+            order.totalPrice,
+            order.currency,
+            order.financialStatus,
+            order.fulfillmentStatus ?: "",
+            order.customerName,
+            order.customerPhone,
+            order.customerEmail,
+            order.address,
+            items
+        ).joinToString("§")
+    }
+
+    inner class OrderAdapter(private val onClick: (Order) -> Unit) :
+        RecyclerView.Adapter<OrderAdapter.VH>() {
+
+        private var items: List<Order> = emptyList()
+
+        fun submit(list: List<Order>) {
+            items = list
+            notifyDataSetChanged()
+        }
+
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VH {
+            val view = LayoutInflater.from(parent.context)
+                .inflate(R.layout.item_order, parent, false)
+            return VH(view)
+        }
+
+        override fun onBindViewHolder(holder: VH, position: Int) = holder.bind(items[position])
+
+        override fun getItemCount() = items.size
+
+        inner class VH(v: View) : RecyclerView.ViewHolder(v) {
+            fun bind(o: Order) {
+                itemView.findViewById<TextView>(R.id.tv_order_name).text = o.name
+                itemView.findViewById<TextView>(R.id.tv_order_customer).text = o.customerName
+                itemView.findViewById<TextView>(R.id.tv_order_amount).text = "Rs ${o.totalPrice}"
+                val status = itemView.findViewById<TextView>(R.id.tv_order_status)
+                status.text = if (o.fulfillmentStatus == "fulfilled") "Shipped" else "Pending"
+                itemView.setOnClickListener { onClick(o) }
+            }
+        }
+    }
+}
